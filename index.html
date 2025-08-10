@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="16x16" href="/src/assets/icons/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="src/assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="57x57" href="/src/assets/icons/favicon-57x57.png">
+    <link rel="icon" type="image/png" sizes="60x60" href="src/assets/icons/favicon-60x60.png">
+    <link rel="icon" type="image/png" sizes="70x70" href="/src/assets/icons/favicon-70x70.png">
+    <link rel="icon" type="image/png" sizes="72x72" href="/src/assets/icons/favicon-72x72.png">
+    <link rel="icon" type="image/png" sizes="76x76" href="/src/assets/icons/favicon-76x76.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/src/assets/icons/favicon-96x96.png">
+    <title>ГРАНИТ - Изделия из натурального камня</title>
+    <meta name="description"
+        content="Компания ГРАНИТ расположена в Забайкальском крае, город Чита, занимается производством и установкой изделий из натурального камня, гранита, смолы, бронзы, латуни. Вид деятельности - надгробные плиты, памятники, статуи, стеллы.">
+    <link rel="stylesheet" href="/src/styles/indexStyles.css">
+    <script src="src/scripts/indexScripts.js"></script>
+</head>
+
+<body>
+    <header id="site-header">
+        <div class="logo">
+            <a href="index.html">Гранит</a>
+        </div>
+        <nav>
+            <ul>
+            <li><a href="#home">Главная</a></li>
+            <li><a href="#services">Услуги</a></li>
+            <li><a href="#about">О нас</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+            <li><a href="#media">Медиа</a></li>
+            <li><a href="#awards">Награды</a></li>
+            <li><a href="#portfolio">Портфолио</a></li>
+            </ul>
+        </nav>
+
+        <button class="menu-toggle" aria-expanded="false" aria-label="Меню">
+            <span class="menu-toggle__line"></span>
+            <span class="menu-toggle__line"></span>
+            <span class="menu-toggle__line"></span>
+        </button>
+    </header>
+
+    <!-- Главный экран -->
+    <section class="hero" id="home">
+        <div class="video-container">
+            <video class="hero__bg-video" autoplay loop muted playsinline>
+                <source src="src/assets/section_01/VID-WA0005_02.mp4" type="video/mp4">
+                <img src="src/assets/section_01/718Q6XlsrhLACUL960QL65.jpg" alt="Фон главного экрана">
+            </video>
+        </div>
+
+        <div class="hero__overlay"></div>
+
+        <div class="hero__container">
+            <div class="hero__content">
+                <h1 class="hero__title">
+                    Изделия из натурального камня
+                    <span class="hero__subtitle">Качество проверенное временем</span>
+                </h1>
+
+                <p class="hero__description">
+                    Компания «ГРАНИТ» специализируется на производстве изделий из натурального камня.
+                    Мы создаем памятники, облицовку фасадов и интерьеров к месту увековечение,
+                    используя только качественные материалы и современные технологии обработки.
+                </p>
+
+                <div class="hero__buttons">
+                    <a href="#services" class="btn btn--primary">Наши услуги</a>
+                    <a href="#contacts" class="btn btn--secondary">Связаться с нами</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Услуги -->
+    <section class="services" id="services">
+      <div class="container">
+        <h2 class="section__title">Наши услуги</h2>
+        <div class="services__grid">
+
+          <!-- Карточка 1: Памятники и мемориалы -->
+          <div class="service__card">
+            <div class="service__icon">
+              <img src="src/assets/section_02/icons8-greek-column-100.svg" alt="Памятники">
+            </div>
+            <h3 class="service__title">Памятники и мемориалы</h3>
+            <p class="service__description">
+              Мы создаём памятники из гранита и смолы:<br>
+              • художественная гравировка и портреты;<br>
+              • авторские орнаменты и барельефы;<br>
+            </p>
+          </div>
+
+          <!-- Карточка 2: Дизайн 3D -->
+          <div class="service__card">
+            <div class="service__icon">
+              <img src="src/assets/section_02/icons8-3d-100.svg" alt="3D дизайн">
+            </div>
+            <h3 class="service__title">Дизайн 3D</h3>
+            <p class="service__description">
+              Наши 3D-дизайнеры помогут вам:<br>
+              • реализовать любые эскизы в объёме;<br>
+              • получить фотореалистичные рендеры;<br>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Преимущества -->
+    <section class="advantages" id="about">
+        <div class="container">
+            <h2 class="section__title" style="color: white;">Почему выбирают нас</h2>
+            <div class="advantages__grid">
+                <div class="advantage__item">
+                    <div class="advantage__number">20+</div>
+                    <h3 class="advantage__title">Лет опыта</h3>
+                    <p class="advantage__description">
+                        Работаем с натуральным камнем более 20 лет.
+                        Накопленный опыт позволяет решать задачи любой сложности.
+                    </p>
+                </div>
+                <div class="advantage__item">
+                    <div class="advantage__number">500+</div>
+                    <h3 class="advantage__title">Довольных клиентов</h3>
+                    <p class="advantage__description">
+                        Более 500 выполненных проектов. Каждый клиент получает
+                        индивидуальный подход и качественный результат.
+                    </p>
+                </div>
+                <div class="advantage__item">
+                    <div class="advantage__number">100%</div>
+                    <h3 class="advantage__title">Качество</h3>
+                    <p class="advantage__description">
+                        Используем только качественные материалы.
+                        Контроль качества на каждом этапе производства.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="contacts" id="contacts">
+    <div class="container">
+        <h2 class="section__title">Свяжитесь с нами</h2>
+        <div class="contacts__content">
+            <div class="contacts__info">
+                <div class="contact__card">
+                    <div class="contact__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                    </div>
+
+                    <div class="contact__details">
+                        <h3>Email</h3>
+                        <p><a href="mailto:Istominv1959@bk.ru">Istominv1959@bk.ru</a></p>
+                    </div>
+                </div>
+
+                <div class="contact__card">
+                    <div class="contact__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56-.35-.12-.74-.03-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z"/>
+                        </svg>
+                    </div>
+
+                    <div class="contact__details">
+                        <h3>Телефон</h3>
+                        <p><a href="tel:+79144895873">+7 (914) 489-58-73</a></p>
+                        <p><a href="tel:+79214040377">+7 (921) 404-03-77</a></p>
+
+                        <!-- Блок мессенджеров -->
+                        <div class="messengers">
+                            <a href="https://t.me/+79144895873" class="messenger-btn telegram" title="Написать в Telegram" target="_blank">
+                                <svg viewBox="0 0 24 24"><path d="M9.78,18.65L10.06,14.42L17.74,7.5C18.08,7.19 17.67,7.04 17.22,7.31L7.74,13.3L3.64,12C2.76,11.75 2.75,11.14 3.84,10.7L19.81,4.54C20.54,4.21 21.24,4.72 20.96,5.84L18.24,18.65C18.05,19.56 17.5,19.78 16.74,19.36L12.6,16.3L10.61,18.23C10.38,18.46 10.19,18.65 9.78,18.65Z"/></svg>
+                            </a>
+
+                            <a href="https://wa.me/+79144895873" class="messenger-btn whatsapp" title="Написать в WhatsApp" target="_blank">
+                                <svg viewBox="0 0 24 24"><path d="M19.077,4.928C17.191,3.041 14.683,2.001 12.011,2.001C6.506,2.001 2.06,6.507 2.06,12.001c0,1.84 0.46,3.66 1.33,5.272L2.05,22.001l4.769-1.249c1.52,0.857 3.262,1.313 5.021,1.313c5.505,0 9.951-4.506 9.951-10.001C21.791,9.321 20.752,6.814 19.077,4.928z M16.898,15.554c-0.208,0.583-1.227,1.145-1.685,1.186c-0.458,0.042-0.887,0.207-2.995-0.624c-2.537-1-4.139-3.601-4.263-3.767c-0.125-0.167-1.019-1.353-1.019-2.581S7.581,7.936 7.81,7.687c0.229-0.25 0.499-0.312 0.666-0.312c0.166,0 0.333,0 0.478,0.006c0.178,0.007 0.375,0.016 0.562,0.431c0.222,0.494 0.707,1.728 0.769,1.853s0.104,0.271 0.021,0.437s-0.125,0.27-0.249,0.416s-0.291,0.353-0.437,0.478c-0.146,0.124-0.303,0.259-0.13,0.509c0.174,0.25 0.77,1.018 1.65,1.672c1.162,0.871 2.095,1.144 2.361,1.26c0.265,0.118 0.42,0.1 0.56-0.094c0.14-0.192 0.606-0.729 0.769-0.978c0.164-0.249 0.328-0.207 0.557-0.124s1.456,0.687 1.705,0.812c0.249,0.125 0.416,0.187 0.478,0.291C17.106,14.471 17.106,14.971 16.898,15.554z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact__card">
+                    <div class="contact__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                    </div>
+
+                    <div class="contact__details">
+                        <h3>Адрес</h3>
+                        <p>г. Чита, ул. Меховой переулок, д. 13</p>
+                    </div>
+                </div>
+
+                <div class="contact__card">
+                    <div class="contact__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
+                    </div>
+
+                    <div class="contact__details">
+                        <h3>Режим работы</h3>
+                        <p>Пн-Пт: 8:00 - 18:00</p>
+                        <p>Сб: 9:00 - 16:00</p>
+                        <p>Вс: выходной</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contacts__map">
+                <div id="map" style="width: 100%; height: 650px;"></div>
+                <script src="https://api-maps.yandex.ru/2.1/?apikey=&lang=ru_RU" type="text/javascript"></script>
+                <script src="src/assets/section_04/script.js"></script>
+            </div>
+        </div>
+    </section>
+
+    <!-- Медиа -->
+    <section class="portfolio" id="media">
+        <div class="container">
+            <h2 class="section__title" style="color: black;">Медиа</h2>
+            <div class="media__grid">
+                <div class="media__item">
+                    <div class="media__content">
+                        <div class="media__type">Новости</div>
+                        <h3 class="media__title">Открытие нового памятника в центре города</h3>
+                        <p class="media__description">С 1 июня 2025 года, на территории мемориала Боевой славы проводится 2 этап мероприятия    «Создание мемориального комплекса Героям СВО», расположенного по адресу: с.Нижний Цасучей, ул.Комсомольская. Ремонт стелы  реализуется в рамках плана социального развития центров экономического роста Забайкальского края Окончание работ     запланированно на 15 августа 2025 года.</p>
+                        <div class="media__date">09 июля 2025</div>
+                        <a href="https://onons.75.ru/novosti/413429-2-etap-meropriyatiya-sozdanie-memorial-nogo-kompleksa-geroyam-svo-v-s-nizhniy-casuchey-ononskogo-mo"
+                        target="_blank"
+                        class="media__link">Открыть источник</a>
+                    </div>
+                </div>
+
+               <div class="media__item media__item--wide">
+                  <div class="media__video">
+                    <iframe src="https://rutube.ru/play/embed/5cd0381f29eee34f27ca464d54c3f189"
+                            frameborder="0"
+                            allow="clipboard-write; autoplay"
+                            allowfullscreen>
+                    </iframe>
+                  </div>
+                  <div class="media__content">
+                    <div class="media__type">Видео</div>
+                    <h3 class="media__title">Интервью с основателем Гранит</h3>
+                    <p class="media__description">
+                      Интервью телеконала ЗРТК с основателем фирмы Гранит
+                    </p>
+                    <div class="media__date">2 июля 2025</div>
+                    <a href="https://rutube.ru/video/27831eb52098a97ad9c848a901d4de8f/?ysclid=mdziyq7mu8963414082"
+                        target="_blank"
+                        class="media__link">Открыть источник</a>
+                  </div>
+                </div>
+
+                <div class="media__item media__item--wide">
+                  <div class="media__video">
+                    <iframe src="https://vk.com/video_ext.php?oid=-192407391&id=456253711&hd=2&autoplay=1" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+                  </div>
+                  <div class="media__content">
+                    <div class="media__type">Видео</div>
+                    <h3 class="media__title">Читинский скульптор открывает патриотическую площадку</h3>
+                    <p class="media__description">
+                      Работа в мастерской забайкальского скульптора Виктора Истомина не затихает. С утра и до позднего вечера он здесь, среди своих героев. Говорит, что сегодня его главная задача — во всей красе показать русского солдата, бесстрашного воина и просто отважного парня, который исполняет свой долг, свою работу, защищая всех нас от опасности.
+                    </p>
+                    <div class="media__date">4 июня 2025</div>
+                    <a href="https://zrtk.ru/posts/14360-chitinskiy_skulptor_otkryvaet_patrioticheskuyu_ploshchadku?ysclid=mdzirjl3qy418353387"
+                        target="_blank"
+                        class="media__link">Открыть источник</a>
+                  </div>
+                </div>
+
+                <div class="media__item">
+                    <div class="media__content">
+                        <div class="media__type">Статья</div>
+                        <h3 class="media__title">«Команда Будущего» посетила мастерскую скульптора Истомина</h3>
+                        <p class="media__description">Участники проекта по созданию выставки в Забайкальском художественном музее к 80-летию Победы посетили мастерскую читинского скульптора. Это начало рабочего процесса команды, которая работает над зоной «Будущее» юбилейной экспозиции.</p>
+                        <p class="media__description">Мастерская Виктора Истомина – единственная студия в Забайкальском крае, которая занимается мемориальными комплексами. Показывая фотографии, скульптор комментировал ребятам, где и в связи с чем поставлен мемориал. А это уже многие районы региона.</p>
+                        <div class="media__date">30 октября 2024</div>
+                        <a href="https://vk.com/wall-207836289_301?ysclid=mdegzydzyr697543653" target="_blank" class="media__link">Открыть источник</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Награды -->
+    <section class="awards" id="awards">
+        <div class="container">
+            <h2 class="section__title" style="color: black;">Награды</h2>
+            <div class="awards__grid">
+                <div class="awards__item">
+                    <img
+                        class="awards__image"
+                        src="src/assets/section_06/001.png"
+                        alt="Диплом за качество услуг"
+                        data-fullsize="src/assets/section_06/001.png">
+                </div>
+
+                <div class="awards__item">
+                    <img
+                        class="awards__image"
+                        src="src/assets/section_06/002.png"
+                        alt="Сертификат соответствия"
+                        data-fullsize="src/assets/section_06/002.png">
+                </div>
+
+                <div class="awards__item">
+                    <img
+                        class="awards__image"
+                        src="src/assets/section_06/003.png"
+                        alt="Сертификат соответствия"
+                        data-fullsize="src/assets/section_06/003.png">
+                </div>
+
+                <script src="src/assets/section_06/script.js"></script>
+            </div>
+        </div>
+    </section>
+
+    <!-- Портфолио -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="section__title" style="color: black;">Наши работы</h2>
+            <div class="portfolio__grid">
+                <div class="portfolio__item">
+                    <img
+                        class="portfolio__image"
+                        src="src/assets/section_07/0001.jpg"
+                        alt="Памятник"
+                        data-fullsize="src/assets/section_07/0001.jpg">
+                </div>
+
+                <div class="portfolio__item">
+                    <img
+                        class="portfolio__image"
+                        src="src/assets/section_07/0002.jpg"
+                        alt="Памятник"
+                        data-fullsize="src/assets/section_07/0002.jpg"
+                        style="object-position: right -40px;">
+                </div>
+
+                <div class="portfolio__item">
+                    <img
+                        class="portfolio__image"
+                        src="src/assets/section_07/0003.jpg"
+                        alt="Памятник"
+                        data-fullsize="src/assets/section_07/0003.jpg"
+                        style="object-position: right -60px;">
+                </div>
+
+                <div class="portfolio__item">
+                    <img
+                        class="portfolio__image"
+                        src="src/assets/section_07/0004.jpg"
+                        alt="Сквер"
+                        data-fullsize="src/assets/section_07/0004.jpg">
+                </div>
+
+                <div class="portfolio__item">
+                    <img
+                        class="portfolio__image"
+                        src="src/assets/section_07/0005.jpg"
+                        alt="Описание фото"
+                        data-fullsize="src/assets/section_07/0005.jpg"
+                        style="object-position: right -35px;">
+                </div>
+
+                <div class="portfolio__item">
+                    <img
+                        class="portfolio__image"
+                        src="src/assets/section_07/0006.jpg"
+                        alt="Описание фото"
+                        data-fullsize="src/assets/section_07/0006.jpg">
+                </div>
+
+                <div class="portfolio__item">
+                    <img
+                        class="portfolio__image"
+                        src="src/assets/section_07/0007.jpg"
+                        alt="Описание фото"
+                        data-fullsize="src/assets/section_07/0007.jpg"
+                        style="object-position: right -55px;">
+                </div>
+
+                <div class="portfolio__item">
+                    <img
+                        class="portfolio__image"
+                        src="src/assets/section_07/0008.jpg"
+                        alt="Описание фото"
+                        data-fullsize="src/assets/section_07/0008.jpg">
+                </div>
+
+                <div class="portfolio__item">
+                    <img
+                        class="portfolio__image"
+                        src="src/assets/section_07/0030.jpg"
+                        alt="Описание фото"
+                        data-fullsize="src/assets/section_07/0030.jpg"
+                        style="object-position: right -15px;">
+                </div>
+
+                <div class="portfolio__item">
+                    <img
+                        class="portfolio__image"
+                        src="src/assets/section_07/0009.jpg"
+                        alt="Описание фото"
+                        data-fullsize="src/assets/section_07/0009.jpg">
+                </div>
+
+                <div class="portfolio__item">
+                    <img
+                        class="portfolio__image"
+                        src="src/assets/section_07/0010.jpg"
+                        alt="Описание фото"
+                        data-fullsize="src/assets/section_07/0010.jpg"
+                        style="object-position: right -15px;">
+                </div>
+
+                <div class="portfolio__item">
+                    <img
+                        class="portfolio__image"
+                        src="src/assets/section_07/0011.jpg"
+                        alt="Описание фото"
+                        data-fullsize="src/assets/section_07/0011.jpg"
+                        style="object-position: right -80px;">
+                </div>
+
+                <div class="portfolio__item">
+                    <img
+                        class="portfolio__image"
+                        src="src/assets/section_07/0012.jpg"
+                        alt="Описание фото"
+                        data-fullsize="src/assets/section_07/0012.jpg">
+                </div>
+
+                <div class="portfolio__item">
+                    <img
+                        class="portfolio__image"
+                        src="src/assets/section_07/0013.jpg"
+                        alt="Описание фото"
+                        data-fullsize="src/assets/section_07/0013.jpg"
+                        style="object-position: right -55px;">
+                </div>
+
+                <div class="portfolio__item">
+                    <img
+                        class="portfolio__image"
+                        src="src/assets/section_07/0014.png"
+                        alt="Описание фото"
+                        data-fullsize="src/assets/section_07/0014.png">
+                </div>
+
+                <div class="portfolio__item">
+                    <img
+                        class="portfolio__image"
+                        src="src/assets/section_07/0015.jpg"
+                        alt="Описание фото"
+                        data-fullsize="src/assets/section_07/0015.jpg"
+                        style="object-position: right -35px;">
+                </div>
+
+                <div class="portfolio__item">
+                    <img
+                        class="portfolio__image"
+                        src="src/assets/section_07/0016.jpg"
+                        alt="Описание фото"
+                        data-fullsize="src/assets/section_07/0016.jpg">
+                </div>
+
+                <div class="portfolio__item">
+                    <img
+                        class="portfolio__image"
+                        src="src/assets/section_07/0018.jpeg"
+                        alt="Описание фото"
+                        data-fullsize="src/assets/section_07/0018.jpeg"
+                        style="object-position: right 5px;">
+                </div>
+
+                <div class="portfolio__item">
+                    <img
+                        class="portfolio__image"
+                        src="src/assets/section_07/0031.jpg"
+                        alt="Описание фото"
+                        data-fullsize="src/assets/section_07/0031.jpg"
+                        style="object-position: right 10px;">
+                </div>
+
+                <div class="portfolio__item">
+                    <img
+                        class="portfolio__image"
+                        src="src/assets/section_07/0017.jpg"
+                        alt="Описание фото"
+                        data-fullsize="src/assets/section_07/0017.jpg"
+                        style="object-position: right 10px;">
+                </div>
+
+                <div class="portfolio__item">
+                    <img
+                        class="portfolio__image"
+                        src="src/assets/section_07/0032.jpg"
+                        alt="Описание фото"
+                        data-fullsize="src/assets/section_07/0032.jpg"
+                        style="object-position: right 10px;">
+                </div>
+
+                <div class="portfolio__item">
+                    <img
+                        class="portfolio__image"
+                        src="src/assets/section_07/0019.jpeg"
+                        alt="Описание фото"
+                        data-fullsize="src/assets/section_07/0019.jpeg"
+                        style="object-position: right -40px;">
+                </div>
+
+                <div class="portfolio__item">
+                    <img
+                        class="portfolio__image"
+                        src="src/assets/section_07/0020.jpg"
+                        alt="Описание фото"
+                        data-fullsize="src/assets/section_07/0020.jpg"
+                        style="object-position: right -235px;">
+                </div>
+
+                <div class="portfolio__item">
+                    <img
+                        class="portfolio__image"
+                        src="src/assets/section_07/0021.jpg"
+                        alt="Описание фото"
+                        data-fullsize="src/assets/section_07/0021.jpg">
+                </div>
+
+                <div class="portfolio__item">
+                    <img
+                        class="portfolio__image"
+                        src="src/assets/section_07/0022.jpeg"
+                        alt="Описание фото"
+                        data-fullsize="src/assets/section_07/0022.jpeg"
+                        style="object-position: right -40px;">
+                </div>
+
+                <div class="portfolio__item">
+                    <img
+                        class="portfolio__image"
+                        src="src/assets/section_07/0023.jpg"
+                        alt="Описание фото"
+                        data-fullsize="src/assets/section_07/0023.jpg"
+                        style="object-position: right -40px;">
+                </div>
+
+                <div class="portfolio__item">
+                    <img
+                        class="portfolio__image"
+                        src="src/assets/section_07/0024.jpeg"
+                        alt="Описание фото"
+                        data-fullsize="src/assets/section_07/0024.jpeg"
+                        style="object-position: right -80px;">
+                </div>
+
+                <div class="portfolio__item">
+                    <img
+                        class="portfolio__image"
+                        src="src/assets/section_07/0025.jpg"
+                        alt="Описание фото"
+                        data-fullsize="src/assets/section_07/0025.jpg"
+                        style="object-position: right -10px;">
+                </div>
+
+                <div class="portfolio__item">
+                    <img
+                        class="portfolio__image"
+                        src="src/assets/section_07/0026.jpg"
+                        alt="Описание фото"
+                        data-fullsize="src/assets/section_07/0026.jpg"
+                        style="object-position: right -220px;">
+                </div>
+
+                <div class="portfolio__item">
+                    <img
+                        class="portfolio__image"
+                        src="src/assets/section_07/0027.jpg"
+                        alt="Описание фото"
+                        data-fullsize="src/assets/section_07/0027.jpg"
+                        style="object-position: right -190px;">
+                </div>
+
+                <div class="portfolio__item">
+                    <img
+                        class="portfolio__image"
+                        src="src/assets/section_07/0028.jpg"
+                        alt="Описание фото"
+                        data-fullsize="src/assets/section_07/0028.jpg"
+                        style="object-position: right -50px;">
+                </div>
+
+                <div class="portfolio__item">
+                    <img
+                        class="portfolio__image"
+                        src="src/assets/section_07/0029.jpg"
+                        alt="Описание фото"
+                        data-fullsize="src/assets/section_07/0029.jpg">
+                </div>
+
+                <script src="src/assets/section_07/script.js"></script>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer style="background-color: #2a2a2a; padding: 10px 0; text-align: center;">
+        <a href="https://github.com/ApexCoreInteractive" target="_blank" style="color: #fff; text-decoration: none; font-size: 0.95rem; transition: color 0.3s ease;" onmouseover="this.style.color='#888'" onmouseout="this.style.color='#fff'">
+            Made in ApexCoreInc.
+        </a>
+    </footer>
+
+</body>
+
+</html>
