@@ -10,7 +10,7 @@
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
 
-    <!-- Hero image -->
+    <!-- Hero -->
     <image:image>
       <image:loc>https://granit-chita.ru/src/assets/section_01/718Q6XlsrhLACUL960QL65.jpg</image:loc>
       <image:caption>Фон главного экрана — ГРАНИТ (Чита)</image:caption>
@@ -30,7 +30,7 @@
       <image:caption>Сертификат — ГРАНИТ</image:caption>
     </image:image>
 
-    <!-- Portfolio images (взял все упоминаемые в HTML) -->
+    <!-- Portfolio -->
     <image:image>
       <image:loc>https://granit-chita.ru/src/assets/section_07/0001.jpg</image:loc>
     </image:image>
@@ -66,18 +66,13 @@
     <image:image><image:loc>https://granit-chita.ru/src/assets/section_07/0028.jpg</image:loc></image:image>
     <image:image><image:loc>https://granit-chita.ru/src/assets/section_07/0029.jpg</image:loc></image:image>
 
-    <!-- Service icons (опционально) -->
-    <image:image><image:loc>https://granit-chita.ru/src/assets/section_02/icons8-greek-column-100.svg</image:loc></image:image>
-    <image:image><image:loc>https://granit-chita.ru/src/assets/section_02/icons8-3d-100.svg</image:loc></image:image>
-
-    <!-- Видео (встраиваемые) -->
+    <!-- Видео -->
     <video:video>
       <video:thumbnail_loc>https://granit-chita.ru/src/assets/media/interview-thumb.jpg</video:thumbnail_loc>
       <video:title>Интервью с основателем Гранит</video:title>
       <video:description>Интервью телеканала ЗРТК с основателем фирмы Гранит</video:description>
       <video:content_loc>https://rutube.ru/play/embed/5cd0381f29eee34f27ca464d54c3f189</video:content_loc>
     </video:video>
-
     <video:video>
       <video:thumbnail_loc>https://granit-chita.ru/src/assets/media/vk-video-thumb.jpg</video:thumbnail_loc>
       <video:title>Читинский скульптор открывает патриотическую площадку</video:title>
