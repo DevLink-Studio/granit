@@ -1,0 +1,15 @@
+# robots.txt для https://granit-chita.ru/
+User-agent: *
+Disallow: /admin/
+Disallow: /backend/
+Disallow: /tmp/
+Disallow: /cgi-bin/
+Allow: /src/styles/
+Allow: /src/scripts/
+Allow: /src/assets/
+
+Sitemap: https://granit-chita.ru/sitemap.xml
+Host: granit-chita.ru
+
+User-agent: Yandex
+Crawl-delay: 10

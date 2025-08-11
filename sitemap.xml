@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+  xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://granit-chita.ru/</loc>
+    <lastmod>2025-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+
+    <!-- Hero image -->
+    <image:image>
+      <image:loc>https://granit-chita.ru/src/assets/section_01/718Q6XlsrhLACUL960QL65.jpg</image:loc>
+      <image:caption>Фон главного экрана — ГРАНИТ (Чита)</image:caption>
+    </image:image>
+
+    <!-- Awards -->
+    <image:image>
+      <image:loc>https://granit-chita.ru/src/assets/section_06/001.png</image:loc>
+      <image:caption>Диплом за качество услуг — ГРАНИТ</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://granit-chita.ru/src/assets/section_06/002.png</image:loc>
+      <image:caption>Сертификат соответствия — ГРАНИТ</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://granit-chita.ru/src/assets/section_06/003.png</image:loc>
+      <image:caption>Сертификат — ГРАНИТ</image:caption>
+    </image:image>
+
+    <!-- Portfolio images (взял все упоминаемые в HTML) -->
+    <image:image>
+      <image:loc>https://granit-chita.ru/src/assets/section_07/0001.jpg</image:loc>
+    </image:image>
+    <image:image><image:loc>https://granit-chita.ru/src/assets/section_07/0002.jpg</image:loc></image:image>
+    <image:image><image:loc>https://granit-chita.ru/src/assets/section_07/0003.jpg</image:loc></image:image>
+    <image:image><image:loc>https://granit-chita.ru/src/assets/section_07/0004.jpg</image:loc></image:image>
+    <image:image><image:loc>https://granit-chita.ru/src/assets/section_07/0005.jpg</image:loc></image:image>
+    <image:image><image:loc>https://granit-chita.ru/src/assets/section_07/0006.jpg</image:loc></image:image>
+    <image:image><image:loc>https://granit-chita.ru/src/assets/section_07/0007.jpg</image:loc></image:image>
+    <image:image><image:loc>https://granit-chita.ru/src/assets/section_07/0008.jpg</image:loc></image:image>
+    <image:image><image:loc>https://granit-chita.ru/src/assets/section_07/0030.jpg</image:loc></image:image>
+    <image:image><image:loc>https://granit-chita.ru/src/assets/section_07/0009.jpg</image:loc></image:image>
+    <image:image><image:loc>https://granit-chita.ru/src/assets/section_07/0010.jpg</image:loc></image:image>
+    <image:image><image:loc>https://granit-chita.ru/src/assets/section_07/0011.jpg</image:loc></image:image>
+    <image:image><image:loc>https://granit-chita.ru/src/assets/section_07/0012.jpg</image:loc></image:image>
+    <image:image><image:loc>https://granit-chita.ru/src/assets/section_07/0013.jpg</image:loc></image:image>
+    <image:image><image:loc>https://granit-chita.ru/src/assets/section_07/0014.png</image:loc></image:image>
+    <image:image><image:loc>https://granit-chita.ru/src/assets/section_07/0015.jpg</image:loc></image:image>
+    <image:image><image:loc>https://granit-chita.ru/src/assets/section_07/0016.jpg</image:loc></image:image>
+    <image:image><image:loc>https://granit-chita.ru/src/assets/section_07/0018.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://granit-chita.ru/src/assets/section_07/0031.jpg</image:loc></image:image>
+    <image:image><image:loc>https://granit-chita.ru/src/assets/section_07/0017.jpg</image:loc></image:image>
+    <image:image><image:loc>https://granit-chita.ru/src/assets/section_07/0032.jpg</image:loc></image:image>
+    <image:image><image:loc>https://granit-chita.ru/src/assets/section_07/0019.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://granit-chita.ru/src/assets/section_07/0020.jpg</image:loc></image:image>
+    <image:image><image:loc>https://granit-chita.ru/src/assets/section_07/0021.jpg</image:loc></image:image>
+    <image:image><image:loc>https://granit-chita.ru/src/assets/section_07/0022.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://granit-chita.ru/src/assets/section_07/0023.jpg</image:loc></image:image>
+    <image:image><image:loc>https://granit-chita.ru/src/assets/section_07/0024.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://granit-chita.ru/src/assets/section_07/0025.jpg</image:loc></image:image>
+    <image:image><image:loc>https://granit-chita.ru/src/assets/section_07/0026.jpg</image:loc></image:image>
+    <image:image><image:loc>https://granit-chita.ru/src/assets/section_07/0027.jpg</image:loc></image:image>
+    <image:image><image:loc>https://granit-chita.ru/src/assets/section_07/0028.jpg</image:loc></image:image>
+    <image:image><image:loc>https://granit-chita.ru/src/assets/section_07/0029.jpg</image:loc></image:image>
+
+    <!-- Service icons (опционально) -->
+    <image:image><image:loc>https://granit-chita.ru/src/assets/section_02/icons8-greek-column-100.svg</image:loc></image:image>
+    <image:image><image:loc>https://granit-chita.ru/src/assets/section_02/icons8-3d-100.svg</image:loc></image:image>
+
+    <!-- Видео (встраиваемые) -->
+    <video:video>
+      <video:thumbnail_loc>https://granit-chita.ru/src/assets/media/interview-thumb.jpg</video:thumbnail_loc>
+      <video:title>Интервью с основателем Гранит</video:title>
+      <video:description>Интервью телеканала ЗРТК с основателем фирмы Гранит</video:description>
+      <video:content_loc>https://rutube.ru/play/embed/5cd0381f29eee34f27ca464d54c3f189</video:content_loc>
+    </video:video>
+
+    <video:video>
+      <video:thumbnail_loc>https://granit-chita.ru/src/assets/media/vk-video-thumb.jpg</video:thumbnail_loc>
+      <video:title>Читинский скульптор открывает патриотическую площадку</video:title>
+      <video:description>Видеорепортаж о работе скульптора Виктора Истомина</video:description>
+      <video:content_loc>https://vk.com/video_ext.php?oid=-192407391&id=456253711&hd=2</video:content_loc>
+    </video:video>
+
+  </url>
+</urlset>
