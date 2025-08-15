@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'VanArkel';
+    src: url('src/font/VanArkel.eot'); /* IE9 Compat Modes */
+    src:
+      url('src/font/VanArkel.eot?#iefix') format('embedded-opentype'), /* IE6-IE11 */
+      url('src/font/VanArkel.woff') format('woff'),
+      url('src/font/VanArkel.woff2') format('woff2'),
+      url('src/font/VanArkel.ttf') format('opentype'),
+      url('src/font/VanArkel.otf') format('opentype');
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+    -webkit-tap-highlight-color: transparent !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+}
+
+body, html {
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    width: 100% !important;
+    height: 100% !important;
+    background-color: #000 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MadeOnDevLinkStudio {
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+.MadeOnDevLinkStudio-link {
+    color: #aaa;
+    text-decoration: none;
+    font-family: 'VanArkel', sans-serif;
+    font-weight: 500;
+    transition: color 0.4s ease;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 15px;
+    height: 100%;
+    margin: 0;
+}
+
+.MadeOnDevLinkStudio-text {
+    white-space: nowrap;
+    margin: 0;
+    padding: 0 2px;
+}
+
+.MadeOnDevLinkStudio-logo {
+    height: 4.0em;
+    max-height: 125px;
+    min-height: 100px;
+    filter: grayscale(1) brightness(0.8);
+    transition: filter 0.4s ease;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+    margin: 0 5px;
+    animation: subtle-float 6s ease-in-out infinite;
+}
+
+.MadeOnDevLinkStudio-link:hover {
+    color: #fff;
+}
+
+.MadeOnDevLinkStudio-link:hover .MadeOnDevLinkStudio-logo {
+    filter: grayscale(0) brightness(1.5);
+    animation: spin-rotate 0.8s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
+}
+
+@keyframes spin-rotate {
+    0% { transform: rotate(0) scale(1); }
+    50% { transform: rotate(180deg) scale(1.2); }
+    100% { transform: rotate(360deg) scale(1); }
+}
+
+@keyframes subtle-float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-4px); }
+}
+
+/* Адаптивные стили */
+@media (max-height: 200px) {
+    .custom-footer { height: 40px; }
+    .footer-text { font-size: 0.7rem !important; }
+    .footer-logo {
+        min-height: 30px !important;
+        max-height: 40px !important;
+        height: 2.5em;
+    }
+}
+
+@media (pointer: coarse) {
+    .footer-link { padding: 0 12px; }
+    .footer-logo { height: 2.8em; }
+}
+
+@media (orientation: portrait) {
+    .custom-footer { padding: 4px 0 !important; }
+}
+
+@media (max-width: 320px) {
+    .footer-link { padding: 0 8px; }
+    .footer-text { font-size: 0.7rem; }
+    .footer-logo { height: 2.5em; }
+}
+
+@media (min-width: 1920px) {
+    .footer-logo { height: 3.5em; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .footer-logo,
+    .footer-link,
+    .footer-link:hover .footer-logo {
+        animation: none !important;
+        transition: none !important;
+    }
+}

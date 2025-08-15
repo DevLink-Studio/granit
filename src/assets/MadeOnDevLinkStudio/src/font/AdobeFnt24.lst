@@ -1,0 +1,44 @@
+%!Adobe-FontList 1.24
+%Locale:0x419
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\hlebu\Desktop\DevLink_Studio-Logo\src\Font\COPYRIGHT.txt
+FileModTime:1754798424
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:VanArkelRegular
+FamilyName:Van Arkel
+StyleName:Regular
+FullName:Van Arkel
+MenuName:Van Arkel
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\hlebu\Desktop\DevLink_Studio-Logo\src\Font\VanArkel.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:17432
+FileModTime:1728771172
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Van Arkel
+NameArray:0,Win,1,Van Arkel
+NameArray:0,Win,16,Van Arkel
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\hlebu\Desktop\DevLink_Studio-Logo\src\Font\readme_2.txt
+FileModTime:1728771176
+%EndFont
+
